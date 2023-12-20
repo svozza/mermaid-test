@@ -2,13 +2,8 @@ Amazing mermaid flow chart
 
 ```mermaid
 flowchart TD
-    A(Deploy
-    CloudFormation Template);
-A --> B{Was deployment
-successful?};
-B -->|Yes| C{What cross
-account discovery
-mode is being
-used?};
+A(Deploy CloudFormation Template);
+A --> B{Was deployment successful?};
+B -->|Yes| C{What cross account discoverymode is being used?};
 
 ```
